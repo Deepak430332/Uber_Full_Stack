@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-div{
+  text-align: center;
+}
+.customerForm {
+  width: 50%;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  border: 2px solid rgba(121, 121, 173, 0.473);
+  padding: 10px;
+  background-color: aqua;
+  color:white;
+  font-weight: bolder;
+
+}
+
+.delete{
+  color: white;
+  font-weight: 500;
+  background-color: red;
+  padding: 4px 4px;
+  border-radius: 5px;
+  border: none;
+}
+.edit{
+  color: black;
+  font-weight: 500;
+  background-color: yellow;
+  padding: 4px 4px;
+  border-radius: 5px;
+  border: none;
+}
+table,th,td{
+  border-collapse: collapse;
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+#Gender>label{
+
+  color: red;
+}
+
+#Vehicle>label{
+
+  color:red;
+}
